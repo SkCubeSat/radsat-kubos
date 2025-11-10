@@ -7,9 +7,9 @@ https://github.com/pypa/sampleproject
 
 from setuptools import setup
 
-setup(name='app_api',
+setup(name='kubos_app',
       version='0.1.0',
       description='Mission Application API for KubOS',
-      py_modules=["app_api"],
+      py_modules=["kubos_app"],
       install_requires=['toml']
       )
